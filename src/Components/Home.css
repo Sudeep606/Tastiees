@@ -1,0 +1,78 @@
+/* This class is for centering the card and styling its container */
+.text-center {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center; /* Ensures the text inside the card is centered */
+  }
+  
+  img {
+    width: 1000px;
+    height: 500px;
+    object-fit: cover; /* Optional, makes sure the image scales properly without distortion */
+  }
+  
+  /* The container holds the image and the overlay text */
+  .container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 160px; /* Aligns the text to the bottom-right corner */
+    color: white;
+    font-size: 18px; /* You can adjust the font size */
+    padding: 5px; /* Optional, adds padding around the text */
+    width: 800px;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 100%; /* Ensure container doesn't overflow */
+    overflow: hidden;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+ 
+  
+  .bottom-left hr {
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .bottom-left {
+      font-size: 14px;
+      bottom: 10px; /* Reduce bottom margin */
+      left: 10px; /* Reduce left margin */
+      width: 80%; /* Make the text container smaller on mobile */
+    }
+  
+    .container img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bottom-left {
+      font-size: 12px;
+      width: 75%; /* Further reduce width on very small screens */
+      left: 5px; /* Reduce space from left */
+    }
+  
+    .container img {
+      height: 250px; /* Limit image height for smaller screens */
+    }
+  }
+  
+ 

@@ -1,0 +1,21 @@
+.img-fluid{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.navbar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  .nav-link {
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: darkorange;
+  }
+  

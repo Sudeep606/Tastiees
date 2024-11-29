@@ -1,0 +1,36 @@
+#image{
+    height: 200px;
+    width: 250px;
+    
+}
+.class-container{
+    display: flex;
+    margin: 10px;
+}
+.box{
+    width: 800px;
+    height: 400;
+    box-shadow: 20px;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 50px;
+}
+.button-container-vertical {
+    display: flex;
+    flex-direction: column; /* Align buttons vertically */
+    align-items: center; /* Center buttons horizontally within the container */
+    gap: 10px; /* Add space between buttons */
+    width: 100%; /* Ensure container spans full width */
+    margin-top: 10px; /* Optional: Add spacing above */
+}
+
+.button-container-vertical .btn {
+    width: 100%; /* Ensure buttons are the same width */
+    max-width: 200px; /* Optional: Set a maximum width for buttons */
+    padding: 10px 20px; /* Uniform padding */
+    font-size: 16px; /* Adjust font size for better readability */
+    text-align: center; /* Center-align button text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow effect */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
